@@ -1,0 +1,5 @@
+x=int(input("Enter value of X between [2-8] :"))
+y=int(input("Enter value of Y between [2-8] :"))
+n=int(input("Enter value of N between [2-8] :"))
+ans=((((x**2)+(x**3))/(y/3)+(y/2)+(y**8))**(2*n))*(((y**6)+(y**2))/(x**9))
+print("ans of expresion:",ans)
